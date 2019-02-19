@@ -12,7 +12,9 @@ body {
 }
 
 /*Main page styling*/
-
+.col-lg-12 {
+  padding: 0px;
+}
 /*Nav bar*/
 .navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -35,7 +37,7 @@ nav {
 .mainProfile {
   border-radius: 50%;
   height: 15rem;
-  border: 3px solid #a2c9c1;
+  border: 3px solid #21363c;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -164,14 +166,13 @@ p.aboutMe {
   padding: 20px;
 }
 
-/*Profile Carousel Styling*/
-.carouselImage {
-  height: auto;
-  padding: 0rem 8rem 8rem 8rem;
+/*Profile Cards Styling*/
+.card {
+  margin-right: auto;
+  margin-left: auto;
 }
-
-.carousel {
-  height: auto;
+.col-lg-4 {
+  padding-bottom: 20px;
 }
 
 /*Contact Information*/
@@ -249,11 +250,6 @@ a:hover {
 @media only screen and (max-width: 990px) {
 
   /* For mobile phones: */
-  .carouselImage {
-    height: auto;
-    padding: 0rem;
-  }
-
   p.aboutMe {
     font-size: 15px;
   }
