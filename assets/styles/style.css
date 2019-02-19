@@ -175,6 +175,11 @@ p.aboutMe {
   padding-bottom: 20px;
 }
 
+.cardBtn {
+  background-color: #35556a;
+  border: none;
+}
+
 /*Contact Information*/
 .contactButton {
   background-color: #f74c468e;
